@@ -30,7 +30,7 @@ html, body {
 
 html {
   font-size: 10px;
-  background-color: #a9a9a9;
+  background-color: #aaaaaa;
 }
 
 body {
@@ -53,7 +53,7 @@ p, input, li {
 h1 {
   font-size: 4rem;
   text-align: center;
-  color: white;
+  color: black;
   text-shadow: 2px 2px 10px black;
 }
 
@@ -74,13 +74,13 @@ p, li {
 /* || header layout */
 
 nav, article, aside, footer {
-  background-color: white;
+  background-color: #40df40;
   padding: 1%;
 }
 
 nav {
   height: 50px;
-  background-color: #ff80ff;
+  background-color: #40df40;
   display: flex;
   margin-bottom: 10px;
 }
@@ -144,7 +144,7 @@ article {
 aside {
   flex: 1;
   margin-left: 10px;
-  background-color: #ff80ff;
+  background-color: #40df40;
 }
 
 aside li {
@@ -170,5 +170,18 @@ footer {
 .column img {
   margin-top: 8px;
   vertical-align: middle;
-  width: 45%
+  width: 45%;
+}
+
+.background {
+	background-color: #50c959;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.background img {
+  margin-top: 8px;
+  horizontal-align: middle;
+  height: 50px;
+  float: right;
 }
